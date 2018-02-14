@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Personality Test</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="wrapper">
+      <section id="question-wrapper" class="question">
+        <p>Are you Xinchro?</p>
+        <section class="button-wrapper">
+          <button onclick="youAreNotXinchro()">Yes</button>
+          <button onclick="youAreXinchro()">No</button>
+        </section>
+      </section>
+      <section id="answer-wrapper" class="answer" style="display:none">
+        <p id="the-answer"></p>
+        <section class="button-wrapper">
+          <button onclick="toggleBoth()">Repeat</button>
+          <button onclick="stopSharing()">Share</button>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
